@@ -1,13 +1,39 @@
 # box2card
+
 Convert [Wikipedia infoboxes](https://en.wikipedia.org/wiki/Help:Infobox) into [Adaptive Cards](https://adaptivecards.io/).
+
+![box2card logo](./box2card.png)
 
 ## Overview
 
+### Adaptive Cards
+
 [Adaptive Cards](https://adaptivecards.io/) are platform-agnostic UI elements described in JSON that can be rendered and presented in a wide variety of environments such as websites, mobile apps, digital assistants, and messaging platforms. They represent an opportunity for creating and reusing high-level UI templates compatible with popular ontologies and schemas, such as [Schema.org](https://schema.org/). Unfortunately, very few templates have been created and shared by the community since the project's inception in 2016. 
+
+<figure>
+  <img
+  src="./adaptivecards.png"
+  alt="Adaptive Cards">
+  <figcaption><a href=https://www.npmjs.com/package/adaptivecards-uhub>Source</a></figcaption>
+</figure>
+
+### Wikipedia infoboxes
 
 [Wikipedia infoboxes](https://en.wikipedia.org/wiki/Help:Infobox) are tables of data typically presented on the right of Wikipedia articles that describe and summarize their subject. Wikipedia's [list of infobox templates](https://en.wikipedia.org/wiki/Wikipedia:List_of_infoboxes) includes over 1,450 distinct infobox templates, covering a wide range of subjects. These templates were carefully crafted and iterated over for decades by a large community of domain experts to capture the unique presentation characteristics of their domains. This effort is unlikely to be replicated, and it seems unwise not to leverage such an ontological goldmine.
 
-The box2card project is an experiment and a proof-of-concept that attemps to find whether the effort invested by the Wikipedia community into infobox templates can be leveraged to fill the gap in Adaptive Card's community templates.
+<figure>
+  <img
+  width="200"
+  src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Xuanhanosaurus_taxobox%2C_June_2020.png"
+  alt="Wikipedia infobox">
+  <figcaption><a href=https://upload.wikimedia.org/wikipedia/commons/2/2d/Xuanhanosaurus_taxobox%2C_June_2020.png>Source</a></figcaption>
+</figure>
+
+<img src="" width="200">
+
+### box2card
+
+The **box2card** project is an experiment and a proof-of-concept that attemps to find whether the effort invested by the Wikipedia community into infobox templates can be leveraged to fill the gap in Adaptive Card's community templates.
 
 ## Research questions
 
